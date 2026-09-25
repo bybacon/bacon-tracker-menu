@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest something BaconTrackerMenu should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: value
+    attributes:
+      label: Who needs it, and why
+      description: Stories here are written as "As [person] I want to [action] so that [value]". Describe the person and the value; the action can come later.
+      placeholder: As a developer with several projects I want to ... so that ...
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How you work around it today
+  - type: textarea
+    id: idea
+    attributes:
+      label: What it could look like
+      description: Optional. A rough scenario is plenty.

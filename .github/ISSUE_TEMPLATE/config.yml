@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/bybacon/bacon-tracker-menu/security/policy
+    about: Please report security problems privately, not as an issue.
+  - name: Troubleshooting
+    url: https://github.com/bybacon/bacon-tracker-menu#troubleshooting
+    about: Common server problems, and what to do about them.
+  - name: A problem with the board or dashboard pages
+    url: https://github.com/bybacon/bacon-tracker/issues
+    about: The pages in your browser come from bacon-tracker. Report those there.

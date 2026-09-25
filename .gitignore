@@ -1,0 +1,15 @@
+# SwiftPM build output and the bundle `make app` assembles
+/.build/
+/.swiftpm/
+/BaconTrackerMenu.app/
+
+# Xcode, if the package is opened there
+xcuserdata/
+*.xcuserstate
+
+# OS and editor noise
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/

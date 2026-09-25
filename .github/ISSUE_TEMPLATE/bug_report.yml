@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in BaconTrackerMenu does not work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: currently
+    attributes:
+      label: What happens
+      description: What you see now, including any message in the menu.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did in the menu. Your dashboard.md helps, with private paths removed.
+      placeholder: |
+        1. Choose dashboard.md…
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: The end of ~/Library/Logs/BaconTrackerMenu/bacon-tracker-menu.log (menu → Open Log).
+      render: text
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: The app version, `gem list bacon-tracker`, your macOS version, and your Ruby manager.
+      placeholder: BaconTrackerMenu 1.0.0, bacon-tracker 1.0.0, macOS 15, rbenv
+    validations:
+      required: true
